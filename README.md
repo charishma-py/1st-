@@ -1,2 +1,2 @@
 # 1st-
-reg-form
+simple interest calculator
