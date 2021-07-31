@@ -58,7 +58,81 @@ Password:
 <br> <br>  
 Re-type password:  
 <input type="Password" id="repass" name="repass"> <br> <br>  
-<input type="button" value="Submit"/>  
-</form>  
-</body>  
+<tr>
+<td>QUALIFICATION <br /><br /></td>
+</tr>
+<table align = 'center'>
+<tr>
+<td align="center"><b>Sl.No.</b></td>
+<td align="center"><b>Examination</b></td>
+<td align="center"><b>Board</b></td>
+<td align="center"><b>Percentage</b></td>
+<td align="center"><b>Year of Passing</b></td>
+</tr>
+ 
+<tr>
+<td>1</td>
+<td>Class X</td>
+<td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+<td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+<td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>2</td>
+<td>Class XII</td>
+<td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+<td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+<td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>3</td>
+<td>Graduation</td>
+<td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+<td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+<td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>4</td>
+<td>Masters</td>
+<td><input type="text" name="Masters_Board" maxlength="30" /></td>
+<td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+<td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td></td>
+<td></td>
+<td align="center">(10 char max)</td>
+<td align="center">(upto 2 decimal)</td>
+<td align = 'center'>(up to 4 decimals)</td>
+</tr>
+</table>
+  
+<tr>
+<td>COURSES<br />APPLIED FOR:</td>
+<td>
+BCA
+<input type="radio" name="Course_BCA" value="BCA">
+B.Com
+<input type="radio" name="Course_BCom" value="B.Com">
+B.Sc
+<input type="radio" name="Course_BSc" value="B.Sc">
+B.A
+<input type="radio" name="Course_BA" value="B.A">
+</td>
+</tr>
+<br/>
+ 
+<tr>
+<td align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table> 
+</form>
+</body>
 </html> 
